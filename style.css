@@ -1,0 +1,74 @@
+.botao_cria_componente {
+    position: relative;
+    left: 36%;
+    width: 200px;
+    height: 100px;
+    background-color: inherit;
+    border: 3px solid #023047;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #023047;
+}
+.botao_cria_componente:hover {
+    transition-duration: 0.4s;
+    color: white;
+    background-color: #023047;
+    border: none;
+}
+#div_componente {
+    position: relative;
+    top: 40px;
+    left: 34%;
+    width: 400px;
+    height: 420px;
+    padding: 80px;
+    border: 5px solid #023047;
+    border-radius: 10px;
+    text-align: center;
+}
+#div_componente h1 {
+    text-transform: uppercase;
+    font-family: 'arial';
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #023047;
+}
+
+.campo_info {
+    width: 300px;
+    height: 60px;
+    border: 2px solid #ffb703;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'arial';
+    color: #023047;
+}
+
+#area_resultado {
+    vertical-align: bottom;
+    line-height: 60px;
+}
+
+.opcoes_adicionais {
+    margin-bottom: 30px;
+    font-family: 'arial';
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.input_button_result {
+    background-color: #023047;
+    color: white;
+    border: 3px solid #023047;
+}
+
+.input_button_result:active {
+    border: 3px solid #023047;
+    color: #023047;
+    background-color: inherit;
+}
+
+
